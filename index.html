@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<!-- saved from url=(0067)https://www.w3schools.com/w3css/tryw3css_templates_startup.htm#home -->
 <html>
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+<head>	
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112453033-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,7 +9,6 @@
 
   gtag('config', 'UA-112453033-1');
 </script>
-
 	<meta http-equiv="Content-Type" content="text/html">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	<style type="text/css"></style>
@@ -22,7 +19,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="shortcut icon" href="./img/balance.png" type="image/png">
 	<title>Person & Lawyer</title>
-
 	<style>
 	body,h1,h2,h3,h4,h5,h6 {font-family: 'Roboto', sans-serif;}
 	body, html {height: 100%;line-height: 1.5;
@@ -31,21 +27,19 @@
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url(img/mac.jpg);
-    min-height: 40%;
+    background-image: url(img/build.jpg);
+    min-height: 100%;
 }
 .w3-bar .w3-button {
     padding: 16px;
 }
 </style>
 
-
 <!-- Dontforget -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <style type="text/css">
 /* Окна */
 .modal_div {
-  
   max-width: 50em; 
   height:550px; /* Размеры должны быть фиксированы */
   border-radius: 5px;
@@ -61,7 +55,7 @@
   z-index: 5; /* окно должно быть наиболее большем слое */
   padding: 20px;
 }
-/* Кнопка закрыть для тех кто в танке) */
+/* Кнопка закрыть  */
 .modal_close {
   width: 21px;
   height: 21px;
@@ -86,13 +80,8 @@
 }
 </style>
 
-
-
-
  </head>
-
  <body>
-
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card-2" id="myNavbar">
@@ -107,13 +96,11 @@
       <a href="#contact" class="w3-bar-item w3-button w3-mobile w3-hover-yellow"> КОНТАКТЫ</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
 </div>
-
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-yellow w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Закрыть ×</a>
@@ -122,17 +109,31 @@
   <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">КОМАНДА</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">КОНТАКТЫ</a>
 </nav>
-
-<!-- Header without full-height image -->
-<header class="w3-container w3-center w3-padding-48 w3-white" id="home">
-	<h1 class="w3-xxxlarge"><b>Правовая помощь для всех</b></h1>
-	<h6>Оперативно Доступно<span class="w3-tag">Надежно</span></h6>
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Частная юридическая компания «Человек и Адвокат»</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Частная юридическая компания «Человек и Адвокат»</span><br>
+    <span class="w3-large">Новый клиент – ценность.<br>
+							Постоянный клиент – успех.<br>
+							Друг клиента – награда.<br>
+							Клиент-друг – цель.<br>
+	</span>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
 </header>
 
 <!-- Work Section
 <div class="w3-container" style="padding:128px 16px" id="work">  --> 
-  
-  <div class="w3-row-padding" style="margin-top:64px" id="work">
+  <div class="w3-row-padding" style="margin-top:64px">
+  <h1 class="w3-center" id="work">ПРАКТИКИ</h1>
     <div class="w3-col l4 m6">
       <a href="#modal1" class="open_modal"><img src="./W3.CSS Template_files/pic4.jpg" style="width:100%" class="w3-hover-opacity" alt=""></a>
       	<div class="w3-display-container w3-text-white">
@@ -151,7 +152,6 @@
       		<div class="w3-panel w3-padding w3-yellow w3-display-bottomleft w3-large">Юридическое сопровождение (аутсорсинг)</div>
       </div>
     </div>
-    
   </div>
 
   <div class="w3-row-padding w3-section">
@@ -188,11 +188,10 @@
         <span onclick="document.getElementById('modal1').style.display='none'" class="modal_close w3-xxxlarge w3-display-topright">&times;</span>
         <!--Хитрая ссылочка для решения проблемы с jq  -->
         <a href="#modal1" class="w3-tiny w3-text-white">#m</a>
-        <h1>1_Юридические консультации</h1>
+        <h1>Юридические консультации</h1>
         <h4>Устные консультации </h4>
         <h4>Письменные консультации </h4>
-        <p>Коммерческие споры и досудебное урегулирование.
-Споры в сфере интеллектуальной собственности и доменные споры.</p>
+        <p></p>
         <a class="w3-button w3-block w3-border w3-xlarge w3-border-yellow w3-section w3-padding w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-hover-yellow w3-round" type="" href="https://docs.google.com/forms/d/e/1FAIpQLSeul1djz537mLCwET9A9spv5FVDnxC3rJUtAhgUypnn8k7ZCA/viewform?usp=sf_link" style="text-decoration: none;" target="_blank">Написать письмо
         </a>
         <h3 class="w3-center">ИЛИ</h3>
@@ -208,11 +207,10 @@
   
      <div class="w3-container">
         <span onclick="document.getElementById('modal2').style.display='none'" class="modal_close w3-xxxlarge w3-display-topright">&times;</span>
-        <h1>2_Работа с документами</h1>
+        <h1>Работа с документами</h1>
         <h4>Составление документов.</h4>
         <h4>Анализ документов.</h4>
-        <p>Коммерческие споры и досудебное урегулирование.
-Споры в сфере интеллектуальной собственности и доменные споры.</p>
+        <p></p>
         <a class="w3-button w3-block w3-border w3-xlarge w3-border-yellow w3-section w3-padding w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-hover-yellow w3-round" type="" href="https://docs.google.com/forms/d/e/1FAIpQLSeul1djz537mLCwET9A9spv5FVDnxC3rJUtAhgUypnn8k7ZCA/viewform?usp=sf_link" style="text-decoration: none;" target="_blank">Написать письмо
         </a>
         <h3 class="w3-center">ИЛИ</h3>
@@ -228,11 +226,10 @@
    
      <div class="w3-container">
         <span onclick="document.getElementById('modal3').style.display='none'" class="modal_close w3-xxxlarge w3-display-topright">&times;</span>
-        <h1>3_Юридическое сопровождение (аутсорсинг)</h1>
+        <h1>Юридическое сопровождение (аутсорсинг)</h1>
         <h4>Разовое юридическое сопровождение</h4>
         <h4>Юридическое сопровождение на постоянной основе</h4>
-        <p>Коммерческие споры и досудебное урегулирование.
-Споры в сфере интеллектуальной собственности и доменные споры.</p>
+        <p></p>
         <a class="w3-button w3-block w3-border w3-xlarge w3-border-yellow w3-section w3-padding w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-hover-yellow w3-round" type="" href="https://docs.google.com/forms/d/e/1FAIpQLSeul1djz537mLCwET9A9spv5FVDnxC3rJUtAhgUypnn8k7ZCA/viewform?usp=sf_link" style="text-decoration: none;" target="_blank">Написать письмо
         </a>
         <h3 class="w3-center">ИЛИ</h3>
@@ -247,10 +244,9 @@
      <div class="w3-container">
 
         <span onclick="document.getElementById('modal4').style.display='none'" class="modal_close w3-xxxlarge w3-display-topright">&times;</span>
-        <h1>4_Досудебное разбирательство (медиация)</h1>
+        <h1>Досудебное разбирательство (медиация)</h1>
         <h4>Досудебное разбирательство (медиация)</h4>
-        <p>Коммерческие споры и досудебное урегулирование.
-Споры в сфере интеллектуальной собственности и доменные споры.</p>
+        <p></p>
         <a class="w3-button w3-block w3-border w3-xlarge w3-border-yellow w3-section w3-padding w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-hover-yellow w3-round" type="" href="https://docs.google.com/forms/d/e/1FAIpQLSeul1djz537mLCwET9A9spv5FVDnxC3rJUtAhgUypnn8k7ZCA/viewform?usp=sf_link" style="text-decoration: none;" target="_blank">Написать письмо
         </a>
         <h3 class="w3-center">ИЛИ</h3>
@@ -266,11 +262,10 @@
   
      <div class="w3-container">
         <span onclick="document.getElementById('modal5').style.display='none'" class="modal_close w3-xxxlarge w3-display-topright">&times;</span>
-        <h1>5_Представительство</h1>
+        <h1>Представительство</h1>
         <h4>Представительство в судах.</h4>
         <h4>Представительство перед иными лицами</h4>
-        <p>Коммерческие споры и досудебное урегулирование.
-Споры в сфере интеллектуальной собственности и доменные споры.</p>
+        <p></p>
         <a class="w3-button w3-block w3-border w3-xlarge w3-border-yellow w3-section w3-padding w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-hover-yellow w3-round" type="" href="https://docs.google.com/forms/d/e/1FAIpQLSeul1djz537mLCwET9A9spv5FVDnxC3rJUtAhgUypnn8k7ZCA/viewform?usp=sf_link" style="text-decoration: none;" target="_blank">Написать письмо
         </a>
         <h3 class="w3-center">ИЛИ</h3>
@@ -286,16 +281,15 @@
    
      <div class="w3-container">
         <span onclick="document.getElementById('modal6').style.display='none'" class="modal_close w3-xxxlarge w3-display-topright">&times;</span>
-        <h1>6_Юридические споры </h1>
-        <h4>Юридические споры</h4>
-        <p>6.1. Самострой
-6.2. Земельные вопросы
-6.3. Семейные дела
-6.4. Банковские споры
-6.5. Взыскание долгов
-6.6. Банкротство
-6.7. Трудовые отношения
-</p>
+        <h1>Юридические споры </h1>
+        <h4></h4>
+        	<p>• Самострой
+			<br>• Земельные вопросы
+			<br>• Семейные дела
+			<br>• Банковские споры
+			<br>• Взыскание долгов
+			<br>• Банкротство
+			<br>• Трудовые отношения
         <a class="w3-button w3-block w3-border w3-xlarge w3-border-yellow w3-section w3-padding w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-hover-yellow w3-round" type="" href="https://docs.google.com/forms/d/e/1FAIpQLSeul1djz537mLCwET9A9spv5FVDnxC3rJUtAhgUypnn8k7ZCA/viewform?usp=sf_link" style="text-decoration: none;" target="_blank">Написать письмо
         </a>
         <h3 class="w3-center">ИЛИ</h3>
@@ -312,7 +306,7 @@
 
 <!-- Team Section (Фотки 170 на 170)!!!-->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">НАША КОМАНДА</h3>
+  <h1 class="w3-center">НАША КОМАНДА</h1>
 <!--
   <p class="w3-center w3-large">The ones who runs this company</p>
 -->
@@ -480,50 +474,30 @@
 </div>
 
 
-
 <!-- Наши клиенты -->
-<div class="w3-container" style="padding:128px 16px" id="clients">
-  <h2 class="w3-center">НАШИ КЛИЕНТЫ</h2>
-  	<br>
-  	<br>
-  <div class="w3-row-padding w3-section">
-    
-    <div class="w3-col l4 m6">
-    	<img src="./img/airbnb-logo.png" style="width:80%" alt="">
-    </div>
-    <div class="w3-col l4 m6">
-    	<img src="./img/paypal-logo.png" style="width:80%" alt="">
-	</div>
-    <div class="w3-col l4 m6">
-    	<img src="./img/spotify-logo.png" style="width:80%" alt="">
-	</div>
-  </div>			
-</div>
-
-<!-- Наши клиенты -->
-<div class="w3-container" style="padding:128px 16px" id="win">
-  <h2 class="w3-center">НАШИ КЛИЕНТЫ</h2>
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="win">
+  <h1 class="w3-center">НАШИ КЛИЕНТЫ</h1>
   <br>  
 
 	<div class="w3-content" style="max-width:700px">
   		<div class="mySlides w3-container w3-red w3-center">
     		<h1><b>ТОВ "РВС УКРАЇНА"  </b></h1>
-    		<h3><i>ТОВ "РВС УКРАЇНА"  </i></h3>
+    		<h3><i>Обслуживание и ремонт автомобилей</i></h3>
   		</div>
 
   		<div class="mySlides w3-container w3-green w3-center">
     		<h1><b>ТОВ «Спецпроект»  </b></h1>
-    		<h3><i>•  ТОВ «Спецпроект»    </i></h3>
+    		<h3><i>•Полиграфическая деятельность</i></h3>
   		</div>
 
   		<div class="mySlides w3-container w3-yellow w3-center">
-    		<h1><b>Медичний центр «Амбулаторія Орльонок» </b></h1>
-    		<h3><i>Харків, просп. Ювілейний, 57а</i></h3>
+    		<h1><b>«Амбулаторія Орльонок» </b></h1>
+    		<h3><i>Детский медицинский центр</i></h3>
   		</div>
 
   		<div class="mySlides w3-container w3-blue w3-center">
     		<h1><b>ТОВ "ХОРЕКАТЕКС"  </b></h1>
-    		<h3><i>Харків, ПРОСПЕКТ НАУКИ, будинок 40, офіс 301</i></h3>
+    		<h3><i>Изготовление текстильных изделий</i></h3>
   		</div>
   
   	</div>
@@ -533,7 +507,7 @@
 <!-- Contact section 2 -->
 
 <div class="w3-container" id="contact">
-  <h2 class="w3-center">КОНТАКТЫ</h2>
+  <h1 class="w3-center">КОНТАКТЫ</h1>
 </div>
 
 <div class="w3-row">
@@ -547,11 +521,11 @@
   <p> <i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Харьков, Украина </p>
   <p> <i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right w3-text-white"></i> ул. Сумская, д. 911, оф. 301 </p>
   <p> <i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> +38 050-550-50-50 </p>
-  <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> mail@mail.com</p>
+  <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>personandlawyer@gmail.com</p>
 </div>
-<div class="w3-third w3-container">
+<div class="w3-third w3-container ">
   <h5>Написать партнерам:</h5>
-  <a href="mailto:anton.dubovoj@gmail.com" target="_blank" class="w3-btn w3-white w3-border w3-border-yellow w3-round-large">anton.dubovoj@gmail.com</a>
+  <a href="mailto:anton.dubovoj@gmail.com" target="_blank" class="w3-btn w3-white w3-border w3-border-yellow w3-round-large">personandlawyer@gmail.com</a>
   <br>
   <br>
   <h5>Скачать реквизиты</h5>
